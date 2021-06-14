@@ -1,0 +1,16 @@
+{
+	"category" : "LPLiveProg",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"properties",
+		"components",
+		"elements" ],
+	"name" : "LPComponent",
+	"pools" : [
+		 ],
+	"super" : "SBBlock",
+	"type" : "normal" }

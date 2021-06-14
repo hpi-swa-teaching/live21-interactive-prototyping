@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"example" : "lp 6/14/2021 14:55" },
+	"instance" : {
+		"addComponent" : "lp 6/14/2021 15:09",
+		"addElement:" : "lp 6/14/2021 15:09",
+		"addProperty:" : "lp 6/14/2021 15:01",
+		"binding:for:class:ifPresent:" : "tobe 5/15/2021 23:42",
+		"example" : "lp 6/14/2021 16:10",
+		"fixedNumberOfChildren" : "lp 6/14/2021 14:21",
+		"initialize" : "lp 6/14/2021 16:18",
+		"insertCommandRequest:near:before:" : "lp 6/14/2021 16:14",
+		"isArtefact" : "tobe 5/15/2021 23:02",
+		"isSmalltalk" : "lp 6/14/2021 14:04",
+		"localVariables" : "lp 6/3/2021 14:11",
+		"objectInterfaceNear:at:" : "lp 6/14/2021 14:27",
+		"outerMostComponent" : "lp 6/8/2021 13:48",
+		"preventOcclusion" : "lp 6/3/2021 13:30",
+		"selfAndOwnerComponentsDo:" : "lp 6/14/2021 14:55" } }

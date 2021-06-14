@@ -1,0 +1,14 @@
+{
+	"category" : "LPLiveProg",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"component" ],
+	"name" : "LPPopup",
+	"pools" : [
+		 ],
+	"super" : "SBBlock",
+	"type" : "normal" }
