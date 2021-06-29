@@ -1,5 +1,15 @@
 {
 	"class" : {
-		"buildDefault" : "lp 6/8/2021 12:54" },
+		"buildDefault" : "lp 6/8/2021 12:54",
+		"newWithProperties:andComponents:andElements:" : "lp 6/22/2021 16:57" },
 	"instance" : {
-		"initialize" : "lp 5/26/2021 15:39" } }
+		"components" : "lp 6/16/2021 12:25",
+		"components:" : "lp 6/24/2021 17:33",
+		"elements" : "lp 6/17/2021 11:22",
+		"elements:" : "lp 6/24/2021 15:11",
+		"getProperty:" : "lp 6/17/2021 15:23",
+		"initialize" : "lp 6/24/2021 17:30",
+		"initializeWithComponents:andElements:" : "lp 6/22/2021 16:42",
+		"properties" : "lp 6/17/2021 15:33",
+		"properties:" : "lp 6/17/2021 15:35",
+		"setProperty:to:" : "lp 6/17/2021 15:35" } }

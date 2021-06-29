@@ -1,19 +1,21 @@
 {
 	"class" : {
-		"example" : "lp 6/14/2021 14:55" },
+		"example" : "lp 6/28/2021 13:54" },
 	"instance" : {
-		"addComponent" : "lp 6/14/2021 15:09",
+		"addComponent" : "lp 6/28/2021 13:54",
+		"addComponent:" : "lp 6/28/2021 14:02",
 		"addElement:" : "lp 6/14/2021 15:09",
 		"addProperty:" : "lp 6/14/2021 15:01",
-		"binding:for:class:ifPresent:" : "tobe 5/15/2021 23:42",
+		"binding:for:class:ifPresent:" : "lp 6/16/2021 11:08",
+		"createInstance" : "lp 6/24/2021 13:58",
 		"example" : "lp 6/14/2021 16:10",
 		"fixedNumberOfChildren" : "lp 6/14/2021 14:21",
-		"initialize" : "lp 6/14/2021 16:18",
-		"insertCommandRequest:near:before:" : "lp 6/14/2021 16:14",
+		"initialize" : "lp 6/29/2021 11:03",
+		"insertCommandRequest:near:before:" : "lp 6/29/2021 11:41",
 		"isArtefact" : "tobe 5/15/2021 23:02",
 		"isSmalltalk" : "lp 6/14/2021 14:04",
-		"localVariables" : "lp 6/3/2021 14:11",
-		"objectInterfaceNear:at:" : "lp 6/14/2021 14:27",
-		"outerMostComponent" : "lp 6/8/2021 13:48",
+		"objectInterfaceNear:at:" : "lp 6/29/2021 10:52",
+		"outerMostComponent" : "lp 6/28/2021 13:53",
 		"preventOcclusion" : "lp 6/3/2021 13:30",
-		"selfAndOwnerComponentsDo:" : "lp 6/14/2021 14:55" } }
+		"saveTryFixing:quick:" : "lp 6/16/2021 12:06",
+		"selfAndOwnerComponentsDo:" : "lp 6/28/2021 13:54" } }

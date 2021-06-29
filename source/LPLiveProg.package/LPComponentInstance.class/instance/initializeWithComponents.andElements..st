@@ -1,5 +1,5 @@
 as yet unclassified
-initialize
+initializeWithComponents: aComponentObject andElements: anElementObject
 
 	super initialize.
 	propertyDictionary := Dictionary new.
@@ -13,8 +13,8 @@ initialize
 				contents: 'New Element');
 			addMorphBack: (SBRow new cellGap: 4));
 		addMorphBack: (SBRow new
-			addMorphBack: (components := SBColumn new);
-			addMorphBack: (elements := SBColumn new));
+			addMorphBack: (components := aComponentObject);
+			addMorphBack: (elements := anElementObject));
 		vResizing: #shrinkWrap;
 		hResizing: #shrinkWrap;
 		attachDecorator: SBMoveDecorator new;

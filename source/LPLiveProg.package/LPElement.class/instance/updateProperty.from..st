@@ -1,4 +1,4 @@
 as yet unclassified
 updateProperty: aSymbol from: aTextBubble
 
-	self perform: aSymbol asSimpleSetter with: (Compiler evaluate: aTextBubble contents)
+	self setProperty: aSymbol to: (Compiler evaluate: aTextBubble contents)
