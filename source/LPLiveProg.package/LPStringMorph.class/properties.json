@@ -1,0 +1,14 @@
+{
+	"category" : "LPLiveProg",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LPStringMorph",
+	"pools" : [
+		 ],
+	"super" : "SBStringMorph",
+	"type" : "normal" }

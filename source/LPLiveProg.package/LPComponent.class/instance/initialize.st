@@ -15,19 +15,21 @@ initialize
 				label: 'create'
 				do: [self createInstance]].
 	self
-		addMorphBack: (SBRow new
+		addMorphFront: (SBRow new
 			cellGap: 4;
 			addMorphFront: (SBTextBubble new contents: 'New Component');
 			addMorphBack: (properties := SBRow new);
 			addMorphBack: (SBButton new icon: SBIcon iconPlus label: 'add' do: [self addProperty: 'newProperty']);
 			addMorphBack: launchOrCreateButton);
-		disableLayout: true;
-		layoutPolicy: SBVerticalLayout new;
 		addMorphBack: (elements := SBColumn new
 			cellGap: 5;
 			borderWidth: 1;
 			borderColor: Color gray;
-			addMorphBack: (SBStringMorph new contents: 'put elements here'));
+			addMorphBack: ((SBBlock new
+				vResizing: #shrinkWrap;
+				hResizing: #shrinkWrap) addMorphBack: (LPStringMorph new contents: 'put elements here')));
+		disableLayout: true;
+		layoutPolicy: SBVerticalLayout new;
 		attachDecorator: (SBMoveAssociatedDecorator new hintBlock: [:artefact | 'Move to {1}' format: {artefact name}]);
 		attachDecorator: SBResizableDecorator new;
 		extent: 278 @ 71
