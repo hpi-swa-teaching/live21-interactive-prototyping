@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"fixedNumberOfChildren" : "lp 7/8/2021 14:01",
+		"hasHorizontalLayout" : "lp 7/8/2021 14:01",
+		"initialize" : "lp 7/8/2021 14:09",
+		"insertCommandRequest:near:before:" : "lp 7/8/2021 14:01",
+		"objectInterfaceNear:at:" : "lp 7/8/2021 14:01" } }

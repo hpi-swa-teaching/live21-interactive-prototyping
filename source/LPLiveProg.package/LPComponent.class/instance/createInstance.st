@@ -7,5 +7,7 @@ createInstance
 	newInstance := LPComponentInstance new
 		properties: instanceProperties;
 		elements: elements;
-		components: components.
-	self sandblockEditor openMorph: (newInstance topLeft: self topRight)
+		elementName: name.
+	self outerMostComponent = self
+		ifTrue: [self sandblockEditor openMorph: (newInstance topLeft: self topRight)]
+		ifFalse: [self owner owner owner addElement: newInstance]

@@ -6,12 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"properties",
-		"components",
-		"elements",
-		"launchOrCreateButton",
-		"name" ],
-	"name" : "LPComponent",
+		 ],
+	"name" : "LPDeclarationArea",
 	"pools" : [
 		 ],
 	"super" : "SBBlock",

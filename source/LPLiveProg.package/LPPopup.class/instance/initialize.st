@@ -9,4 +9,5 @@ initialize
 		vResizing: #shrinkWrap;
 		hResizing: #shrinkWrap;
 		cellGap: 6;
-		changeTableLayout
+		changeTableLayout;
+		addDropShadow

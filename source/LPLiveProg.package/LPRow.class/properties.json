@@ -6,13 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"properties",
-		"components",
-		"elements",
-		"launchOrCreateButton",
-		"name" ],
-	"name" : "LPComponent",
+		"subElements" ],
+	"name" : "LPRow",
 	"pools" : [
 		 ],
-	"super" : "SBBlock",
+	"super" : "LPElement",
 	"type" : "normal" }

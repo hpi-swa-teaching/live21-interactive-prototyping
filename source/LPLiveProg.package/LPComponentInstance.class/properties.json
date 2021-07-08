@@ -9,7 +9,9 @@
 		"components",
 		"elements",
 		"newProperty",
-		"propertyDictionary" ],
+		"propertyDictionary",
+		"nameField",
+		"elementName" ],
 	"name" : "LPComponentInstance",
 	"pools" : [
 		 ],
