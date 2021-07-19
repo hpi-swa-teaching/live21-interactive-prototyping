@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"build:state:" : "lp 7/18/2021 19:23",
+		"exampleBuild:state:" : "lp 7/18/2021 19:23",
+		"exampleCode" : "lp 7/18/2021 19:23",
+		"instanceComponent:from:id:with:" : "tobe 7/18/2021 11:35" },
+	"instance" : {
+		"initialize" : "tobe 7/18/2021 11:35",
+		"listenFor:" : "tobe 7/18/2021 11:33",
+		"methodChanged:" : "lp 7/18/2021 19:09",
+		"outOfWorld:" : "tobe 7/18/2021 11:30",
+		"update" : "lp 7/18/2021 19:21" } }

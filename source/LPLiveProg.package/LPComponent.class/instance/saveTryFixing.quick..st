@@ -1,5 +1,5 @@
 as yet unclassified
 saveTryFixing: aFixBoolean quick: aQuickBoolean
-	"if it works, it works!"
 
+	self sandblockEditor rebuildPalette.
 	^ true

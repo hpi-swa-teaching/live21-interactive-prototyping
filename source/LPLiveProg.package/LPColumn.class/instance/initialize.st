@@ -4,12 +4,9 @@ initialize
 	super initialize.
 	self
 		addMorphBack: (subElements := SBColumn new
-			cellGap: 5;
+			cellGap: 3;
 			borderWidth: 1;
-			borderColor: Color lightGray;
-			addMorphBack: ((SBBlock new
-				vResizing: #shrinkWrap;
-				hResizing: #shrinkWrap) addMorphBack: (LPStringMorph new contents: 'vertical')));
+			borderColor: Color lightGray);
 		layoutPolicy: SBVerticalLayout new;
 		vResizing: #shrinkWrap;
 		hResizing: #shrinkWrap

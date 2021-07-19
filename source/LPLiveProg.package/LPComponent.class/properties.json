@@ -9,8 +9,8 @@
 		"properties",
 		"components",
 		"elements",
-		"launchOrCreateButton",
-		"name" ],
+		"name",
+		"launchButton" ],
 	"name" : "LPComponent",
 	"pools" : [
 		 ],

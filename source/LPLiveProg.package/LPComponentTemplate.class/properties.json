@@ -1,0 +1,17 @@
+{
+	"category" : "LPLiveProg",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"view",
+		"declarations",
+		"properties",
+		"selectors" ],
+	"name" : "LPComponentTemplate",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

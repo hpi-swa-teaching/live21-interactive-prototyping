@@ -1,0 +1,14 @@
+{
+	"category" : "LPLiveProg",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"textBubble" ],
+	"name" : "LPTextBubble",
+	"pools" : [
+		 ],
+	"super" : "LPElement",
+	"type" : "normal" }

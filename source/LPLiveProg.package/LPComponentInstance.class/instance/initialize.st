@@ -12,7 +12,7 @@ initialize
 				color: Color white;
 				contents: 'New Element');
 			addMorphBack: (SBRow new cellGap: 4));
-		addMorphBack: (SBRow new addMorphBack: (elements := SBColumn new));
+		addMorphBack: (SBRow new addMorphBack: (elements := LPColumn new));
 		vResizing: #shrinkWrap;
 		hResizing: #shrinkWrap;
 		attachDecorator: SBMoveDecorator new;

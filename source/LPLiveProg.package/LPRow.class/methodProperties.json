@@ -1,9 +1,13 @@
 {
 	"class" : {
-		 },
+		"buildDefault" : "lp 7/19/2021 11:26" },
 	"instance" : {
+		"addSubmorph:" : "lp 7/15/2021 16:14",
+		"asExecutableBlock" : "lp 7/18/2021 14:13",
+		"example" : "lp 7/15/2021 18:23",
+		"example2" : "lp 7/19/2021 14:51",
 		"fixedNumberOfChildren" : "lp 7/8/2021 14:01",
 		"hasHorizontalLayout" : "lp 7/8/2021 14:01",
-		"initialize" : "lp 7/8/2021 14:09",
+		"initialize" : "lp 7/19/2021 11:25",
 		"insertCommandRequest:near:before:" : "lp 7/8/2021 14:01",
-		"objectInterfaceNear:at:" : "lp 7/8/2021 14:01" } }
+		"objectInterfaceNear:at:" : "lp 7/19/2021 10:38" } }
