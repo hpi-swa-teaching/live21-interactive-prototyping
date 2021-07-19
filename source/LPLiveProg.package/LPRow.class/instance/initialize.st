@@ -3,10 +3,7 @@ initialize
 
 	super initialize.
 	self
-		addMorphBack: (subElements := SBRow new
-			cellGap: 5;
-			borderWidth: 1;
-			borderColor: Color lightGray);
-		layoutPolicy: SBVerticalLayout new;
+		changeTableLayout;
+		layoutPolicy: SBHorizontalLayout new;
 		vResizing: #shrinkWrap;
 		hResizing: #shrinkWrap

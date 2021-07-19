@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "LPRow",
+	"name" : "LPSelector",
 	"pools" : [
 		 ],
-	"super" : "LPElement",
+	"super" : "SBStContainer",
 	"type" : "normal" }

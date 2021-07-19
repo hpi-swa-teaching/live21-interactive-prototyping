@@ -12,8 +12,8 @@ buildOn: aBuilder
 		addSectionHeader: 'New Side Effect';
 		addBlock: 'LPSideEffect' as: LPSideEffect new;
 		addSectionHeader: 'New Selector';
-		addBlock: 'LPSelector' as: LPSideEffect new;
+		addBlock: 'LPSelector' as: LPSelector new;
 		addSectionHeader: 'New Component';
 		addBlock: 'LPComponent' as: LPComponent new;
 		addSectionHeader: 'Own Components'.
-	(aBuilder selection containingArtefact isKindOf: LPComponent) ifTrue: (aBuilder selection containingArtefact selfAndOwnerComponentsDo: [:parent | parent components childSandblocksDo: [:component | aBuilder addBlock: component name contents as: component newInstance]])
+	(aBuilder selection containingArtefact isKindOf: LPComponent) ifTrue: [aBuilder selection containingArtefact selfAndOwnerComponentsDo: [:parent | parent components childSandblocksDo: [:component | (component isKindOf: LPComponent) ifTrue: [aBuilder addBlock: component name contents as: component newInstance]]]]

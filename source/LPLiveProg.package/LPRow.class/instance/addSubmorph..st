@@ -1,4 +1,4 @@
 as yet unclassified
 addSubmorph: aBlock
 
-	subElements addMorphBack: aBlock
+	self addMorphBack: aBlock

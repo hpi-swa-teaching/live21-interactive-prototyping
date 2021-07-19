@@ -14,9 +14,10 @@ initialize
 			addMorphBack: (launchButton := SBButton new icon: SBIcon iconArrowRight label: '' do: [self createInstance]));
 		addMorphBack: (SBRow new
 			addMorphBack: (elements := LPColumn new
-				addSubmorph: ((SBBlock new
+				addMorphBack: ((SBBlock new
 					vResizing: #shrinkWrap;
-					hResizing: #shrinkWrap) addMorphBack: (LPStringMorph new contents: 'put elements here'));
+					hResizing: #shrinkWrap;
+					changeTableLayout) addMorphBack: (LPStringMorph new contents: 'put elements here'));
 				cellGap: 5;
 				borderWidth: 1;
 				borderColor: Color gray;

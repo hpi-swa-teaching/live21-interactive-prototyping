@@ -4,5 +4,6 @@ buildDefault
 	^ self new
 		addSubmorph: ((SBBlock new
 			vResizing: #shrinkWrap;
-			hResizing: #shrinkWrap) addMorphBack: (LPStringMorph new contents: 'vertical'));
+			hResizing: #shrinkWrap;
+			changeTableLayout) addMorphBack: (LPStringMorph new contents: 'vertical'));
 		yourself
