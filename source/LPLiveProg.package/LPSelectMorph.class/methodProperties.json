@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"dooFoo" : "lp 5/20/2021 15:23",
-		"example" : "lp 5/20/2021 14:25",
-		"initialize" : "lp 5/25/2021 12:12",
-		"wasDeselected" : "lp 5/20/2021 15:28",
-		"wasSelected" : "lp 5/25/2021 12:09" } }
