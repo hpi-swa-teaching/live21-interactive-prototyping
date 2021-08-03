@@ -1,0 +1,14 @@
+{
+	"category" : "LPLiveProg",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"id" ],
+	"name" : "LPSideEffect",
+	"pools" : [
+		 ],
+	"super" : "SBStContainer",
+	"type" : "normal" }

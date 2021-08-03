@@ -1,0 +1,14 @@
+{
+	"category" : "LPLiveProg",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LPComponentPalette",
+	"pools" : [
+		 ],
+	"super" : "SBPalette",
+	"type" : "normal" }

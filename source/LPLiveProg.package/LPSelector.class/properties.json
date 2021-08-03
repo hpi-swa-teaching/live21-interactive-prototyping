@@ -1,0 +1,14 @@
+{
+	"category" : "LPLiveProg",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"id" ],
+	"name" : "LPSelector",
+	"pools" : [
+		 ],
+	"super" : "SBStContainer",
+	"type" : "normal" }

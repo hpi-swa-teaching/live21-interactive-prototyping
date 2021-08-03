@@ -1,0 +1,20 @@
+{
+	"category" : "LPLiveProg",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"components",
+		"elements",
+		"newProperty",
+		"propertyDictionary",
+		"nameField",
+		"elementName",
+		"id" ],
+	"name" : "LPComponentInstance",
+	"pools" : [
+		 ],
+	"super" : "LPElement",
+	"type" : "normal" }

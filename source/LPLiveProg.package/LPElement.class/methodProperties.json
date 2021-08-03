@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"asExecutableBlock" : "lp 7/9/2021 09:42",
+		"example" : "lp 6/2/2021 10:58",
+		"getProperty:" : "lp 6/17/2021 15:25",
+		"initialize" : "lp 6/14/2021 16:17",
+		"isComponent" : "lp 6/14/2021 13:00",
+		"properties" : "lp 6/17/2021 11:38",
+		"properties:" : "lp 6/16/2021 12:23",
+		"setProperty:to:" : "lp 6/17/2021 15:45",
+		"updateProperty:from:" : "lp 6/17/2021 15:45",
+		"wasDeselected" : "lp 6/14/2021 15:56",
+		"wasSelected" : "lp 6/24/2021 14:05" } }

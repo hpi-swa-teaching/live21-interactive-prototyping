@@ -1,0 +1,15 @@
+{
+	"category" : "LPLiveProg",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"state",
+		"view" ],
+	"name" : "LPAppTemplate",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

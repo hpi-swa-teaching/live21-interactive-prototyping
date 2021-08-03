@@ -1,0 +1,19 @@
+{
+	"category" : "LPLiveProg",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"properties",
+		"declarations",
+		"elements",
+		"name",
+		"launchButton",
+		"id" ],
+	"name" : "LPComponent",
+	"pools" : [
+		 ],
+	"super" : "SBBlock",
+	"type" : "normal" }

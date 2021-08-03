@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"defaultLayer" : "lp 7/1/2021 14:48" },
+	"instance" : {
+		"binding:for:class:ifPresent:" : "lp 8/3/2021 12:21",
+		"id" : "lp 8/3/2021 12:04",
+		"initialize" : "lp 8/3/2021 12:20",
+		"isArtefact" : "lp 8/3/2021 12:22",
+		"preferredColor" : "lp 7/19/2021 18:00",
+		"preventOcclusion" : "tobe 5/15/2021 23:18" } }

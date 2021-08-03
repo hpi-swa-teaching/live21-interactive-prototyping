@@ -1,0 +1,14 @@
+{
+	"category" : "LPLiveProg",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LPDeclarationArea",
+	"pools" : [
+		 ],
+	"super" : "SBBlock",
+	"type" : "normal" }
