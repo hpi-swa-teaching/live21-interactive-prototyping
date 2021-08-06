@@ -15,4 +15,4 @@ asExecutableBlock
 					b to: (b name: 's2') cascade: (self properties collect: [:prop |
 						b
 							cascadedSend: #at:ifAbsentPut:
-							with: {b symbol: prop contents asSymbol. b blockWith: {} do: {b name: prop binding}}])}})}] sbStSave
+							with: {b symbol: prop contents asSymbol. b blockWith: {} do: {b string: prop binding asString}}])}})}] sbStSave

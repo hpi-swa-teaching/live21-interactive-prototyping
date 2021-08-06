@@ -2,9 +2,4 @@
 	"class" : {
 		"defaultLayer" : "lp 7/1/2021 14:48" },
 	"instance" : {
-		"binding:for:class:ifPresent:" : "lp 7/23/2021 11:36",
-		"id" : "lp 8/3/2021 12:21",
-		"initialize" : "lp 8/3/2021 12:20",
-		"isArtefact" : "lp 7/23/2021 11:31",
-		"preferredColor" : "lp 7/19/2021 18:02",
-		"preventOcclusion" : "lp 7/19/2021 18:01" } }
+		"preferredColor" : "lp 7/19/2021 18:02" } }

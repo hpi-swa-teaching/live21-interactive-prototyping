@@ -2,7 +2,7 @@ as yet unclassified
 wasSelected
 
 	(popup isNil or: [popup isInWorld not]) ifTrue: [ | text |
-		text := LPPropertyValue new contents: self binding.
+		text := LPPropertyValue new contents: self binding asString.
 		popup := LPPopup new parent: self.
 		popup addMorphFront: (text
 			element: self;

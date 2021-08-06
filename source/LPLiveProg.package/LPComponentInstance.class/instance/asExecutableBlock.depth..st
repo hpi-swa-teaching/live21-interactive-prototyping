@@ -5,7 +5,7 @@ asExecutableBlock: aBuilder depth: aNumber
 	state := 's', aNumber.
 	subState := 's', (aNumber + 1).
 	^ aBuilder to: (aBuilder name: 'LPAppBuilder') send: #instanceComponent:from:id:with: with: {
-		aBuilder to: (aBuilder name: 's', aNumber) send: #at: with: (aBuilder symbol: id).
+		aBuilder to: (aBuilder name: state) send: #at: with: (aBuilder symbol: id).
 		aBuilder name: state.
 		aBuilder symbol: UUID new.
 		aBuilder blockWith: {subState} do: (self properties collect: [:prop | | value |
@@ -14,9 +14,9 @@ asExecutableBlock: aBuilder depth: aNumber
 				ifFalse: [
 					aBuilder
 						to: (aBuilder name: subState)
-						send: #at:put:
-						with: {aBuilder symbol: prop contents. value parseAsSandblock}]
+						send: #at:ifAbsentPut:
+						with: {aBuilder symbol: prop contents. value asString parseAsSandblock}]
 				ifTrue: [
-					aBuilder to: (aBuilder name: subState) send: #at:put: with: {
+					aBuilder to: (aBuilder name: subState) send: #at:ifAbsentPut: with: {
 						aBuilder symbol: prop contents.
-						aBuilder to: (aBuilder name: 's', aNumber) send: #at: with: (aBuilder symbol: value id)}]])}
+						aBuilder to: (aBuilder name: state) send: #at: with: (aBuilder symbol: value id)}]])}

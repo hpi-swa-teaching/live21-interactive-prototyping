@@ -1,4 +1,4 @@
 as yet unclassified
 updateFrom: aTextBubble
 
-	self binding: aTextBubble contents
+	self binding: (Compiler evaluate: aTextBubble contents)

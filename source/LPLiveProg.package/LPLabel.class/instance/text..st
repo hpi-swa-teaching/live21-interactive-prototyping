@@ -3,4 +3,5 @@ text: aStringOrObject
 
 	(aStringOrObject isKindOf: String)
 		ifTrue: [label contents: aStringOrObject]
-		ifFalse: [label contents: 'LINK']
+		ifFalse: [label contents: 'LINK'].
+	text := aStringOrObject

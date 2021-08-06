@@ -1,4 +1,4 @@
 as yet unclassified
 binding
 
-	binding ifNil: [^ 'nil'] ifNotNil: [^ binding]
+	binding ifNil: [^ nil] ifNotNil: [^ binding]

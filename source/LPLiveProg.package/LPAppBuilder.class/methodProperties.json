@@ -1,11 +1,10 @@
 {
 	"class" : {
-		"BACKUPbuild:state:" : "lp 8/6/2021 09:51",
-		"build:state:" : "lp 8/6/2021 17:55",
-		"code" : "lp 8/6/2021 14:04",
+		"build:state:" : "lp 8/7/2021 01:33",
+		"example2build:state:" : "lp 8/7/2021 01:34",
 		"exampleBuild:state:" : "lp 8/1/2021 12:14",
 		"exampleCode" : "lp 7/18/2021 19:23",
-		"instanceComponent:from:id:with:" : "lp 8/6/2021 17:07" },
+		"instanceComponent:from:id:with:" : "lp 8/6/2021 21:00" },
 	"instance" : {
 		"code" : "lp 8/6/2021 14:03",
 		"initialize" : "tobe 7/18/2021 11:35",
