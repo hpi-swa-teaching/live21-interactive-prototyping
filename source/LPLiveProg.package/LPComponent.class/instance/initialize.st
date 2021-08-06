@@ -12,7 +12,7 @@ initialize
 				when: #stopEditing send: #updateName: to: self withArguments: {nameField});
 			addMorphBack: (properties := SBRow new);
 			addMorphBack: (SBButton new icon: SBIcon iconPlus label: 'property' do: [self addProperty: 'newProperty']);
-			addMorphBack: (launchButton := SBButton new icon: SBIcon iconArrowRight label: '' do: [self createInstance]));
+			addMorphBack: (launchButton := SBButton new icon: SBIcon iconArrowRight label: '' do: [self launch]));
 		addMorphBack: (SBRow new
 			addMorphBack: (elements := LPColumn new
 				addMorphBack: ((SBBlock new

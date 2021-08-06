@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"component:" : "lp 6/2/2021 11:07",
-		"initialize" : "lp 6/30/2021 11:12",
+		"initialize" : "lp 8/5/2021 10:14",
 		"morphicLayerNumber" : "lp 6/17/2021 15:37",
+		"parent" : "lp 8/5/2021 17:46",
+		"parent:" : "lp 8/5/2021 17:46",
 		"preventOcclusion" : "lp 6/3/2021 17:42",
 		"wasDeselected" : "lp 6/14/2021 15:56" } }

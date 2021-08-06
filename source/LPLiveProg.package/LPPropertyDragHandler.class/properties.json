@@ -1,0 +1,15 @@
+{
+	"category" : "LPLiveProg",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"element",
+		"property" ],
+	"name" : "LPPropertyDragHandler",
+	"pools" : [
+		 ],
+	"super" : "SBBlock",
+	"type" : "normal" }

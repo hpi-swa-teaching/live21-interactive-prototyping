@@ -1,0 +1,16 @@
+{
+	"category" : "LPLiveProg",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sideEffect",
+		"selector",
+		"popup" ],
+	"name" : "LPProperty",
+	"pools" : [
+		 ],
+	"super" : "SBStName",
+	"type" : "normal" }

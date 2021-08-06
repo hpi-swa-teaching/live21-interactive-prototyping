@@ -10,5 +10,5 @@
 	"name" : "LPSideEffect",
 	"pools" : [
 		 ],
-	"super" : "SBStContainer",
+	"super" : "LPCode",
 	"type" : "normal" }

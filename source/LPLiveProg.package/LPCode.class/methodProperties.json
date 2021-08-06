@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"binding:for:class:ifPresent:" : "lp 8/5/2021 11:51",
+		"id" : "lp 8/5/2021 11:51",
+		"initialize" : "lp 8/5/2021 11:52",
+		"isArtefact" : "lp 8/5/2021 11:52",
+		"preventOcclusion" : "lp 8/5/2021 11:52",
+		"specialDropCommand:" : "lp 8/5/2021 16:12",
+		"storeString" : "lp 8/5/2021 14:57" } }

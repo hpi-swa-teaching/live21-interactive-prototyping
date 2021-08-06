@@ -7,7 +7,7 @@ testAsExecutableBlock
 		addElement: (LPButton new text: 'ButtonLabel').
 	subComponentInstance := subComponent newInstance
 		setProperty: #iAmAProp
-		to: 'IAmAValue'.
+		to: '''IAmAValue'''.
 	testComponent := LPComponent new
 		addComponent: subComponent;
 		addProperty: 'count';

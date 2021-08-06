@@ -5,4 +5,4 @@ initialize
 	self
 		layoutInset: 5;
 		changeTableLayout.
-	popup := LPPopup new component: self
+	popup := LPPopup new parent: self

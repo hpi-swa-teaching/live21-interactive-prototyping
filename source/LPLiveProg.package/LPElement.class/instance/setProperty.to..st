@@ -1,4 +1,7 @@
 as yet unclassified
 setProperty: aNameSymbol to: anObject
 
-	self perform: aNameSymbol asSimpleSetter with: anObject
+	popup delete.
+	popup := nil.
+	self perform: aNameSymbol asSimpleSetter with: anObject.
+	self wasSelected

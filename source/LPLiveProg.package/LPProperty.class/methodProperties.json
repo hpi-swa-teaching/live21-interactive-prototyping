@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"asSymbol" : "lp 8/5/2021 14:42",
+		"binding" : "lp 8/5/2021 18:59",
+		"selector" : "lp 8/5/2021 11:11",
+		"selector:" : "lp 8/5/2021 11:12",
+		"sideEffect" : "lp 8/5/2021 11:11",
+		"sideEffect:" : "lp 8/5/2021 11:12",
+		"updateFrom:" : "lp 8/5/2021 18:40",
+		"wasDeselected" : "lp 8/5/2021 17:50",
+		"wasSelected" : "lp 8/5/2021 19:00" } }

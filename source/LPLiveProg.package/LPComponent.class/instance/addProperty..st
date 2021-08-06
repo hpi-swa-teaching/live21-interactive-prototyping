@@ -2,7 +2,7 @@ as yet unclassified
 addProperty: aString
 
 	| newMorph |
-	newMorph := (SBStName newWith: SBStDeclarationForLocalVariable new)
+	newMorph := (LPProperty newWith: LPFieldDeclarationBehavior new)
 		contents: aString;
 		autoCast: false.
 	properties addMorphBack: newMorph.

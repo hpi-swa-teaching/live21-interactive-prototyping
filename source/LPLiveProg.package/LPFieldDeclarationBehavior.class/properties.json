@@ -1,0 +1,14 @@
+{
+	"category" : "LPLiveProg",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LPFieldDeclarationBehavior",
+	"pools" : [
+		 ],
+	"super" : "SBStDeclarationBehavior",
+	"type" : "normal" }

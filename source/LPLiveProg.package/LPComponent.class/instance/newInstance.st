@@ -1,10 +1,11 @@
 as yet unclassified
 newInstance
 
-	| instanceProperties |
+	| instanceProperties newInstance |
 	instanceProperties := properties submorphs collect: [:property | property contents asSymbol].
-	^ LPComponentInstance new
+	newInstance := LPComponentInstance new
 		properties: instanceProperties;
 		elements: elements;
 		elementName: name;
-		id: id
+		id: id.
+	^ newInstance

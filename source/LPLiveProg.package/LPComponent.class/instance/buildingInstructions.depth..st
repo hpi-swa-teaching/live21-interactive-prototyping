@@ -3,9 +3,9 @@ buildingInstructions: aBuilder depth: aNumber
 
 	| sideEffects components selectors |
 	"TODO: make these getters"
-	sideEffects := declarations submorphs reject: [:d | (d isKindOf: LPSideEffect) not].
-	components := declarations submorphs reject: [:d | (d isKindOf: LPComponent) not].
-	selectors := declarations submorphs reject: [:d | (d isKindOf: LPSelector) not].
+	sideEffects := declarations submorphs select: [:d | d isKindOf: LPSideEffect].
+	components := declarations submorphs select: [:d | d isKindOf: LPComponent].
+	selectors := declarations submorphs select: [:d | d isKindOf: LPSelector].
 	^ aBuilder to: (aBuilder to: (aBuilder name: 'LPComponentTemplate') send: #new) cascade: {
 		aBuilder cascadedSend: #declarations: with: (aBuilder blockWith: {'s', aNumber} do: (sideEffects collect: [:sideEffect |
 			aBuilder to: (aBuilder name: 's', aNumber) send: #at:put: with: {
@@ -21,10 +21,10 @@ buildingInstructions: aBuilder depth: aNumber
 			(decl isKindOf: LPSelector) ifTrue: (aBuilder to: (aBuilder name: 's', aNumber) send: #at:put: with: {
 				aBuilder symbol: UUID new asString asSymbol.
 				aBuilder blockWith: {} do: {aBuilder string: decl sourceString}})])).
-		aBuilder cascadedSend: #properties: with: (aBuilder array: (self properties collect: [:prop |
-			prop
-			"prop contents asSymbol"])).
-		aBuilder cascadedSend: #view: with: (aBuilder blockWith: {'s', aNumber} do: ((elements childSandblocks reject: [:child | child class = SBBlock]) collect: [:element | "TODO: wie wird ein Sideeffect gesetzt?"
-		"TODO: fix LPComponentInstance asExecutableBlock"
-		element asExecutableBlock])).
+		aBuilder
+			cascadedSend: #properties:
+			with: (aBuilder array: (self properties collect: [:prop | aBuilder symbol: prop contents])).
+		aBuilder cascadedSend: #view: with: (aBuilder
+			blockWith: {'s', aNumber}
+			do: ((elements childSandblocks reject: [:child | child class = SBBlock]) collect: [:element | element asExecutableBlock: aBuilder depth: aNumber])).
 		aBuilder cascadedSend: #yourself}
