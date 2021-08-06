@@ -7,12 +7,23 @@ buildingInstructions: aBuilder depth: aNumber
 	components := declarations submorphs select: [:d | d isKindOf: LPComponent].
 	selectors := declarations submorphs select: [:d | d isKindOf: LPSelector].
 	^ aBuilder to: (aBuilder to: (aBuilder name: 'LPComponentTemplate') send: #new) cascade: {
-		aBuilder cascadedSend: #declarations: with: (aBuilder blockWith: {'s', aNumber} do: (sideEffects collect: [:sideEffect |
+		aBuilder cascadedSend: #declarations: with: (aBuilder blockWith: {'s', aNumber} do: (sideEffects collect: [:sideEffect | | actual |
+			actual := sideEffect veryDeepCopy.
+			actual allBlocksDo: [:block |
+				(block isBinding and: [block resolveBinding isNil]) ifTrue: [
+					(block parentSandblock notNil and: [block parentSandblock isAssignment and: [block = block parentSandblock binding]])
+						ifTrue: [
+							block parentSandblock replaceBy: [:b |
+								b
+									to: (b name: 's', aNumber)
+									send: #at:put:
+									with: {b symbol: block contents. block parentSandblock expression}] sbStBuild]
+						ifFalse: [block replaceBy: [:b | b to: (b name: 's', aNumber) send: #at: with: (b symbol: block contents)] sbStBuild]]].
 			aBuilder to: (aBuilder name: 's', aNumber) send: #at:put: with: {
-				aBuilder symbol: sideEffect id.
+				aBuilder symbol: actual id.
 				aBuilder
 					blockWith: {}
-					do: sideEffect body statements veryDeepCopy, {aBuilder to: (aBuilder name: 'rebuild') send: #value}}]), (components collect: [:component |
+					do: actual body statements veryDeepCopy, {aBuilder to: (aBuilder name: 'rebuild') send: #value}}]), (components collect: [:component |
 			aBuilder
 				to: (aBuilder name: 's', aNumber)
 				send: #at:put:

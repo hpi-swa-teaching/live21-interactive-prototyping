@@ -2,4 +2,7 @@ as yet unclassified
 launch
 
 	self asExecutableBlock.
-	self sandblockEditor openMorph: ((Compiler evaluate: self asExecutableBlock sourceString) topLeft: self topRight)
+	LPAppBuilder new
+		listenFor: LPAppBuilder class >> #build:state:;
+		update;
+		openInWindow

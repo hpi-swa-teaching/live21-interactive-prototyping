@@ -1,4 +1,6 @@
 as yet unclassified
-text: aString
+text: aStringOrObject
 
-	button label: aString
+	(aStringOrObject isKindOf: String)
+		ifTrue: [button label: aStringOrObject]
+		ifFalse: [button label: 'LINK']

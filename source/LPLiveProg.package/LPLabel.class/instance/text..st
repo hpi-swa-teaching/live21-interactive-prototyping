@@ -1,4 +1,6 @@
 as yet unclassified
-text: aString
+text: aStringOrObject
 
-	label contents: aString
+	(aStringOrObject isKindOf: String)
+		ifTrue: [label contents: aStringOrObject]
+		ifFalse: [label contents: 'LINK']
