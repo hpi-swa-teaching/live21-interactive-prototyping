@@ -3,7 +3,7 @@ initialize
 
 	super initialize.
 	propertyDictionary := Dictionary new.
-	id ifNil: [id := UUID new].
+	myId ifNil: [id := UUID new].
 	self
 		addMorphFront: (SBRow new
 			cellGap: 8;

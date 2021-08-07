@@ -7,7 +7,7 @@ asExecutableBlock: aBuilder depth: aNumber
 	^ aBuilder to: (aBuilder name: 'LPAppBuilder') send: #instanceComponent:from:id:with: with: {
 		aBuilder to: (aBuilder name: state) send: #at: with: (aBuilder symbol: id).
 		aBuilder name: state.
-		aBuilder symbol: UUID new.
+		aBuilder symbol: myId.
 		aBuilder blockWith: {subState} do: (self properties collect: [:prop | | value |
 			value := self getProperty: prop contents asSymbol.
 			(value isKindOf: LPCode)

@@ -4,7 +4,7 @@
 		"newWithProperties:andComponents:andElements:" : "lp 6/22/2021 16:57" },
 	"instance" : {
 		"addElement:" : "lp 7/19/2021 14:47",
-		"asExecutableBlock:depth:" : "lp 8/7/2021 00:12",
+		"asExecutableBlock:depth:" : "tobe 8/7/2021 11:07",
 		"components" : "lp 6/16/2021 12:25",
 		"components:" : "lp 6/24/2021 17:33",
 		"elementName" : "lp 7/8/2021 13:41",
@@ -14,8 +14,10 @@
 		"getProperty:" : "lp 6/17/2021 15:23",
 		"id" : "lp 8/1/2021 21:44",
 		"id:" : "lp 8/1/2021 21:44",
-		"initialize" : "lp 8/1/2021 21:45",
+		"initialize" : "tobe 8/7/2021 11:07",
 		"initializeWithComponents:andElements:" : "lp 6/22/2021 16:42",
+		"myId:" : "tobe 8/7/2021 11:08",
 		"properties" : "lp 6/17/2021 15:33",
 		"properties:" : "lp 6/17/2021 15:35",
-		"setProperty:to:" : "lp 6/17/2021 15:35" } }
+		"setProperty:to:" : "lp 6/17/2021 15:35",
+		"veryDeepCopyWith:" : "tobe 8/7/2021 11:08" } }

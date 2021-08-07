@@ -12,7 +12,8 @@
 		"propertyDictionary",
 		"nameField",
 		"elementName",
-		"id" ],
+		"id",
+		"myId" ],
 	"name" : "LPComponentInstance",
 	"pools" : [
 		 ],
